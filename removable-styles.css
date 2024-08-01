@@ -193,6 +193,27 @@ header {
     color: var(--text-color);
     cursor: pointer;
 }
+/* Responsive & Breakpoints */
+@media (max-width: 768px) {
+    .nav {
+        padding: 10px 10px; /* Reduce padding for mobile */
+    }
+
+    .logo {
+        font-size: 1rem;
+        margin-right: 10px; /* Reduce space between logo and nav links */
+    }
+
+    .nav-links a {
+        font-size: 14px;
+        margin: 0 5px; /* Reduce spacing between nav links */
+    }
+
+    #cart-icon {
+        font-size: 1.6rem;
+        margin-left: 10px; /* Reduce space between nav links and cart icon */
+    }
+}
 
 /* SHOP SECTION */
 .shop {
@@ -281,7 +302,7 @@ header {
         padding: 7px;
     }
 .shop-content {
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(2, 1fr); 
     }
 
 
@@ -297,7 +318,7 @@ header {
 /* For Small Devices */
 @media (max-width: 576) {
      .shop-content {
-        grid-template-columns: 2fr; 
+        grid-template-columns: 1fr; 
     }
 
 .shop {
