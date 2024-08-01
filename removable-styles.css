@@ -276,10 +276,14 @@ header {
 }
 
 /* For Medium Devices */
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .nav {
-        padding: 11px;
+        padding: 7px;
     }
+.shop-content {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
 
     .logo {
         font-size: 1rem;
@@ -291,8 +295,12 @@ header {
 }
 
 /* For Small Devices */
-@media (max-width: 360px) {
-    .shop {
+@media (max-width: 576) {
+     .shop-content {
+        grid-template-columns: 2fr; 
+    }
+
+.shop {
         margin-top: 1rem;
     }
 
