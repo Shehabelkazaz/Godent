@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> First Year Products</title>
+    
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="first-year-styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo"><span>GO</span>DENT</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="student.html">Years</a></li>
+            </ul>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content"></div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shop Section -->
+    <section class="shop container">
+        <h2 class="section-title">First Year Products</h2>
+<section class="recommendation-notice container">
+        <p>If you find this star <i class='bx bxs-star'></i>, it means we recommend buying this product!</p>
+    </section>
+
+        <div class="shop-content">
+
+            <div class="product-box"  data-recommended="true">
+                <img src="pics/bluewax.png" alt="" class="product-img">
+                    <i class='bx bxs-star recommendation-star'></i>
+
+                <h2 class="product-title">Wax</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/yellowwax.png" alt="" class="product-img">
+                <h2 class="product-title">Yellow Wax</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/redwax.png" alt="" class="product-img">
+                <h2 class="product-title">Red Wax</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/bigcarver.png" alt="" class="product-img">
+                <h2 class="product-title">Wax Carver</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/smallcarver.png" alt="" class="product-img">
+                <h2 class="product-title">Small Wax Carver</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/largewaxknife.png" alt="" class="product-img">
+                <h2 class="product-title">Wooden Wax-Knife</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/smallwaxknife.png" alt="" class="product-img">
+                <h2 class="product-title">Wooden Small Wax-Knife</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="pics/towels.png" alt="" class="product-img">
+                <h2 class="product-title">Pack of 10 Towels</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="cart.png" alt="" class="product-img">
+                <h2 class="product-title">Plastic Tray</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="cart.png" alt="" class="product-img">
+                <h2 class="product-title">Wax Sock</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Link JS -->
+    <script src="first-year-scripts.js"></script>
+</body>
+<footer class="sticky-footer">
+    <div class="footer-content">
+        <button id="allProductsButton">View All Products</button>
+    </div>
+</footer>
+
+</html>
