@@ -80,6 +80,28 @@ header {
     font-size: 1.8rem;
     cursor: pointer;
 }
+/* Responsive & Breakpoints */
+@media (max-width: 768px) {
+    .nav {
+        padding: 10px 10px; /* Reduce padding for mobile */
+    }
+
+    .logo {
+        font-size: 1rem;
+        margin-right: 10px; /* Reduce space between logo and nav links */
+    }
+
+    .nav-links a {
+        font-size: 14px;
+        margin: 0 5px; /* Reduce spacing between nav links */
+    }
+
+    #cart-icon {
+        font-size: 1.6rem;
+        margin-left: 10px; /* Reduce space between nav links and cart icon */
+    }
+}
+
 
 /* CART */
 .cart {
@@ -192,27 +214,6 @@ header {
     font-size: 2rem;
     color: var(--text-color);
     cursor: pointer;
-}
-/* Responsive & Breakpoints */
-@media (max-width: 768px) {
-    .nav {
-        padding: 10px 10px; /* Reduce padding for mobile */
-    }
-
-    .logo {
-        font-size: 1rem;
-        margin-right: 10px; /* Reduce space between logo and nav links */
-    }
-
-    .nav-links a {
-        font-size: 14px;
-        margin: 0 5px; /* Reduce spacing between nav links */
-    }
-
-    #cart-icon {
-        font-size: 1.6rem;
-        margin-left: 10px; /* Reduce space between nav links and cart icon */
-    }
 }
 
 /* SHOP SECTION */
