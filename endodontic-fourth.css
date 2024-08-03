@@ -255,10 +255,11 @@ header {
     background-color: hsl(249, 32%, 17%);
 }
 
-/* ================ RESPONSIVE & BREAKPOINTS ============= */
+
+/* Responsive & Breakpoints */
 @media (max-width: 1080px) {
     .nav {
-        padding: 15px;
+        padding: 7px;
     }
 
     .container {
@@ -276,13 +277,21 @@ header {
 }
 
 /* For Medium Devices */
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .nav {
-        padding: 11px;
+        padding: 7px;
+    }
+
+    .shop-content {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .logo {
         font-size: 1rem;
+    }
+
+    .nav-links a {
+        font-size: 14px;
     }
 
     .cart {
@@ -291,7 +300,12 @@ header {
 }
 
 /* For Small Devices */
-@media (max-width: 360px) {
+@media (max-width: 576px) {
+    .shop-content {
+        grid-template-columns: repeat (2,1fr);
+	gap:2rem;
+    }
+
     .shop {
         margin-top: 1rem;
     }
