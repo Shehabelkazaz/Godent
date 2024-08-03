@@ -71,4 +71,62 @@ button:hover {
 .cart-item:last-child {
     border-bottom: none;
 }
+/* Responsive & Breakpoints */
+@media (max-width: 1080px) {
+    .nav {
+        padding: 7px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 3rem 0 2rem;
+    }
+
+    .shop {
+        margin-top: 2rem;
+    }
+}
+
+/* For Medium Devices */
+@media (max-width: 768px) {
+    .nav {
+        padding: 7px;
+    }
+
+    .shop-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .cart {
+        width: 320px;
+    }
+}
+
+/* For Small Devices */
+@media (max-width: 576px) {
+    .shop-content {
+        grid-template-columns: repeat (2,1fr);
+	gap:2rem;
+    }
+
+    .shop {
+        margin-top: 1rem;
+    }
+
+    .cart {
+        width: 280px;
+    }
+}
 

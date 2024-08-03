@@ -19,7 +19,7 @@
     --sec-color: #4946fd;
     --text-color: #ff4433;
     --bg-color: #ffff;
-    --nav-bg-color: #d3d3d3;
+ --nav-bg-color:#d3d3d3;
 }
 
 ::selection {
@@ -105,7 +105,7 @@ header {
 #cart-icon {
     font-size: 1.8rem;
     cursor: pointer;
-    margin-left: 10px; /* Reduce space between nav links and cart icon */
+    margin-left: 15px; /* Reduce space between nav links and cart icon */
 }
 
 /* CART */

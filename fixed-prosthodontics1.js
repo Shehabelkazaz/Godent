@@ -156,43 +156,6 @@ function CartBoxComponent(title, price, imgSrc) {
         <i class='bx bxs-trash-alt cart-remove'></i>
     </div>`;
 }
-
-function updateCartDisplay() {
-    // Retrieve cart from local storage
-    const cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-    // Calculate total items and total price
-    const totalItems = cart.length;
-    const totalPrice = cart.reduce((sum, product) => sum + product.price, 0);
-
-    // Update cart count and total price in the navigation bar
-    document.querySelector('.cart-count').textContent = totalItems;
-    document.querySelector('.cart-total').textContent = `$${totalPrice.toFixed(2)}`;
-}
-
-
-
-------------------------------------------------
-document.addEventListener('DOMContentLoaded', function () {
-    const productImages = document.querySelectorAll('.product-img');
-
-    productImages.forEach(img => {
-        img.addEventListener('mouseover', function () {
-            const message = this.nextElementSibling;
-            message.style.display = 'appear';
-        });
-
-        img.addEventListener('mouseout', function () {
-            const message = this.nextElementSibling;
-            message.style.display = 'none';
-        });
-
-        img.addEventListener('click', function () {
-            const message = this.nextElementSibling;
-            message.style.display = 'block';
-        });
-    });
-});
 document.addEventListener("DOMContentLoaded", function() {
     // Function to handle the button click and redirect
     document.getElementById("allProductsButton").onclick = function() {

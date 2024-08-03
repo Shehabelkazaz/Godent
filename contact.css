@@ -58,6 +58,9 @@ header {
     order: 1; /* Move nav links to the center */
     margin: 0 auto;
 }
+.nav-links li {
+    margin: 0 4px; /* Reduce margin between nav links */
+}
 .nav-links a {
     color: var(--bg-color);
     text-decoration: none;

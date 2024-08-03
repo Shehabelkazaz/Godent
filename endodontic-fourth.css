@@ -76,8 +76,16 @@ header {
     font-weight: 700;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
 .nav-links li {
-    margin: 0 2px; /* Reduce margin between nav links */
+    margin: 0 4px; /* Reduce margin between nav links */
 }
 
 .nav-links a {
