@@ -285,7 +285,9 @@ header {
     .nav {
         padding: 15px;
     }
-
+.nav-links li {
+    margin: 0 5px;
+}
     .container {
         width: 90%;
         margin: 0 auto;
@@ -313,6 +315,9 @@ header {
     .logo {
         font-size: 1rem;
     }
+.nav-links li {
+    margin: 0 5px;
+}
 
     .cart {
         width: 320px;
@@ -328,7 +333,9 @@ header {
 .shop {
         margin-top: 1rem;
     }
-
+.nav-links li {
+    margin: 0 5px;
+}
     .cart {
         width: 280px;
     }
@@ -343,7 +350,7 @@ header {
 }
 
 .nav-links li {
-    margin: 0 8px;
+    margin: 0 5px;
 }
 
 .nav-links a {
