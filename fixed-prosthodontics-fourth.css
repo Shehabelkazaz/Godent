@@ -70,6 +70,7 @@ header {
     font-weight: 600;
     color: var(--sec-color);
     text-transform: uppercase;
+    margin-right: 10px;
 }
 
 .logo span {
@@ -77,22 +78,14 @@ header {
     font-weight: 700;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 5px; /* Reduce margin between nav links */
 }
 
 .nav-links a {
     color: #000000;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -100,6 +93,7 @@ header {
 
 .nav-links a:hover {
     background-color: #575757;
+    color: #fff;
 }
 
 #cart-icon {
@@ -370,4 +364,3 @@ header {
 .footer-content button:hover {
     background-color: #c0392b;
 }
-
