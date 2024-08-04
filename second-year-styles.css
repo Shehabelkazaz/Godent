@@ -54,8 +54,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
-}
+    padding: 10px 0;
+	height:100%;}
 .logo{
     font-size: 1.1rem;
     font-weight: 600;
@@ -242,12 +242,18 @@ header{
     background-color: #575757;
 }
  
-main {
+.main {
     text-align: center;
     padding: 20px;
     width: 100%;
 
 }
+   h1 {
+            font-size: 3rem;
+            Color:var(--main-color);
+            padding: 20px 0;
+        }
+
 .subjects-section {
     width: 90%;
     max-width: 600px;

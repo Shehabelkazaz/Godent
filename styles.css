@@ -56,7 +56,8 @@ header {
     background-color: var(--nav-bg-color);
     box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
     z-index: 100;
-Padding:20px 0 ;
+    Padding:15px 0 ;
+
 }
 
 .nav {
@@ -64,6 +65,8 @@ Padding:20px 0 ;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
+	height:100%;
+
 }
 
 .logo {
@@ -235,7 +238,7 @@ Padding:20px 0 ;
         
         h1 {
             font-size: 3rem;
-Color:var(--main-color);
+            Color:var(--main-color);
             margin-bottom: 2rem;
         }
         
@@ -311,10 +314,12 @@ Color:var(--main-color);
 
 /* For Small Devices */
 @media (max-width: 576px) {
-    .shop-content {
-        grid-template-columns: repeat (2,1fr);
-	gap:2rem;
-    }
+   
+H1{
+	font-size:1.5rem;
+	white-space:nowrap;
+
+}
 
     .shop {
         margin-top: 1rem;

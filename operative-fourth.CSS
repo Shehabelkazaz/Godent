@@ -61,7 +61,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -220,6 +220,14 @@ header {
     color: var(--text-color);
     cursor: pointer;
 }
+
+body {
+    padding-top: 70px; 
+}
+
+section {
+    padding: 5rem 0 3rem; 
+} 
 
 /* SHOP SECTION */
 .shop {

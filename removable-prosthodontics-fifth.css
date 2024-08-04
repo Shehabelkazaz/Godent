@@ -62,7 +62,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -221,6 +221,12 @@ header {
     cursor: pointer;
 }
 
+Body{
+	Padding-top:70px;
+}
+Section{
+	Padding:5rem 0 3rem;
+}
 /* SHOP SECTION */
 .shop {
     margin-top: 2rem;

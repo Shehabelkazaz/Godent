@@ -17,7 +17,7 @@
 :root {
     --main-color: #fd4646;
     --sec-color: #4946fd;
-    --text-color: #171427;
+    --text-color: #ff4433;
     --bg-color: #fff;
  --nav-bg-color:#d3d3d3;
 
@@ -61,7 +61,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -219,6 +219,13 @@ header {
     font-size: 2rem;
     color: var(--text-color);
     cursor: pointer;
+}
+
+Body{
+	Padding-top:70px;
+}
+Section{
+	Padding:5rem 0 3rem;
 }
 
 /* SHOP SECTION */

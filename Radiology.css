@@ -36,13 +36,14 @@ header {
     background-color: var(--nav-bg-color);
     box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
     z-index: 100;
+Height:auto;
 }
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 8px 0;
 }
 
 .logo {
@@ -201,6 +202,12 @@ header {
     cursor: pointer;
 }
 
+Body{
+	Padding-top:80px;
+}
+Section{
+	Padding:5rem 0 3rem;
+}
 /* SHOP SECTION */
 .shop {
     margin-top: 2rem;
